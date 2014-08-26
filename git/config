@@ -1,11 +1,14 @@
 [user]
-	name = Oliver Caldwell
-	email = olliec87@gmail.com
+	name = Andreas Lillebø Holm
+	email = andreas@sqhead.com
 [core]
 	editor = vim
 	excludesfile = ~/dotfiles/git/ignore
 [color]
-	ui = true
+	ui = always
+    diff = true
+[remotes]
+    default = origin
 [push]
 	default = simple
 [diff]
