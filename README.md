@@ -60,6 +60,7 @@ source $HOME/.vim/config.vim
 Need to install Vundle and do:
 
 ```bash
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +BundleInstall
 ```
 Then compile [YouCompleteMe][].
@@ -69,7 +70,7 @@ cd .vim
 ./compile/ycm.sh
 ```
 
-In ``.vim/bundle/tern_for_vim run:
+In .vim/bundle/tern_for_vim run:
 
 ```bash
 npm install
