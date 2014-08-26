@@ -57,11 +57,22 @@ Add this to `~/.vimrc`.
 source $HOME/.vim/config.vim
 ```
 
+Need to install Vundle and do:
+
+```bash
+vim +BundleInstall
+```
 Then compile [YouCompleteMe][].
 
 ```bash
 cd .vim
 ./compile/ycm.sh
+```
+
+In ``.vim/bundle/tern_for_vim run:
+
+```bash
+npm install
 ```
 
 ## Things you'll probably also want
