@@ -12,3 +12,8 @@ source $HOME/.vim/bundles.vim
 for f in split(glob('~/.vim/modules/*.vim'), '\n')
   exe 'source' f
 endfor
+
+noremap <Right> <C-w>l
+noremap <Left> <C-w>h
+noremap <Up> <C-w>k
+noremap <Down> <C-w>j 

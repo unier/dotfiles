@@ -12,9 +12,9 @@
 [push]
 	default = simple
 [diff]
-	tool = vimdiff
+	tool = opendiff
 [merge]
-	tool = vimdiff
+	tool = opendiff
 	conflictstyle = diff3
 [mergetool]
 	prompt = false
