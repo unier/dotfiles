@@ -1,0 +1,21 @@
+Host *.local.
+User sqhead
+IdentityFile %d/.ssh/spu.id_rsa
+CheckHostIP no
+StrictHostKeyChecking no
+VerifyHostKeyDNS no
+
+Host sqhead-server
+Hostname 10.77.32.44
+User andrho
+
+Host halka.no
+User andreas
+
+Host kitty-ubuntu1404
+Hostname kitty-ubuntu1404.local
+User andreas
+
+Host sqhead-ci
+Hostname 10.77.32.45
+User sqhead
